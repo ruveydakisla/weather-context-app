@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #A78295;
+  height:100vh;
+  background-color: #DCD7C9; 
+  width: 100%;
+}
+
+.Card {
+  border: 5px solid #A27B5C; /* Kartın kenarlığı */
+  padding: 16px; /* Kartın iç boşluğu */
+  background-color: #fff; /* Kartın arka plan rengi */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Kartın gölgesi */
+  flex-direction: column;
+  align-items: center; /* İçerikleri ortalamak için kullanabilirsiniz */
+  width: 15%;
+  margin-right: 20px;
+  margin-inline-start: 20px;
+  border-radius: 5px;
+  
+}
+
+.Card img {
+  max-width: 80px; /* Resmin maksimum genişliği */
+  
+  
+}
+.cardText{
+  margin-right: 20px;
+  color: #2C3639;
+  font-weight: bold;
+  text-align: center;
+}
+.Container{
+  display: flex;
+}
+.Header {
+  color:#331D2C;
+  font-size: 45px;
+  margin-top: 0px;
+  background-color: #2C3639;
+  color: #DCD7C9;
+  line-height: 15vh;
+}
+.cityText{
+  color:#2C3639 ;
+}
